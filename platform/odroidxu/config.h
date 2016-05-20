@@ -5,7 +5,7 @@
 #define CFG_CNTFRQ              100000000
 
 #define HYP_STACK_SIZE          4096
-#define NR_CPUS                 1
+#define NR_CPUS                 2
 #define NUM_GUESTS_STATIC       1
 
 /*
@@ -18,7 +18,7 @@
 #define NSEC_DIV 1000000000
 #define TIMER_RESOLUTION_NS (NSEC_DIV/CFG_CNTFRQ)
 
-#define NUM_GUESTS_CPU0_STATIC       2
+#define NUM_GUESTS_CPU0_STATIC       1
 #define TICKTIME_1MS 1000
 #define MAX_IRQS 1024
 

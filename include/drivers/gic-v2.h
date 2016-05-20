@@ -6,11 +6,11 @@
 #include <io.h>
 #include "../include/types.h"
 
-#ifdef SERIAL_PL01X
+#ifdef CONFIG_PL01X_SERIAL
 #include <../../platform/rtsm/config.h>
-#elif SERIAL_SH
+#elif CONFIG_SH_SERIAL
 #include <../../platform/lager/config.h>
-#elif SERIAL_S5P
+#elif CONFIG_S5P_SERIAL
 #include <../../platform/odroidxu/config.h>
 #endif
 
